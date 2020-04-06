@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:runnercrimson/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:runnercrimson/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:runnercrimson/prow:hmacToken
+segmentWriteKey: vault:runnercrimson:segmentWriteKey
